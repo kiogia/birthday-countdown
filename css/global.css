@@ -1,0 +1,154 @@
+:root {
+  --dark-link-color: #4da6ea;
+  --dark-selection-background-color: #fcf05a;
+}
+
+ok {
+  color: var(--dark-link-color);
+}
+
+.colors {
+  color: #4da6ea; /* link */
+  color: #4f83d1;
+  color: #91cdf2;
+  color: #f98c96;
+  color: #fcf05a; /*select */
+  color: #00ab00;
+  color: #dd0000;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  color: #4da6ea;
+  text-decoration: none;
+  touch-action: manipulation;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.urlButton {
+  -moz-tap-highlight-color: transparent;
+  -moz-user-select: none;
+  -ms-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  user-select: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+::selection {
+  background-color: #fcf05a;
+  color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ffffff;
+  }
+
+  #particles-js {
+    background-color: #0c0c0c;
+  }
+
+  .button {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .urlButton {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .urlButton:hover {
+    color: #000000;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff22;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff66;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: #000000;
+  }
+
+  #particles-js {
+    background-color: #fafafa;
+  }
+
+  .button {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .urlButton {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .urlButton:hover {
+    color: #ffffff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #00000022;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00000066;
+  }
+}
