@@ -31,19 +31,10 @@ main {
   user-select: none;
 }
 
-#tagline {
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  font-size: 4vw;
-  font-weight: 100;
-  letter-spacing: 3px;
-  user-select: none;
-}
-
 input {
-  text-align: center;
   background-color: transparent;
   border: none;
+  text-align: center;
 }
 
 @keyframes gradient {

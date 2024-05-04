@@ -16,16 +16,16 @@ input:focus {
   outline: none;
 }
 
-/* input:focus::placeholder {
-  color: transparent;
-} */
-
 input::-webkit-calendar-picker-indicator {
   display: none !important;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
+    color: #ffffff;
+  }
+
+  input {
     color: #ffffff;
   }
 
@@ -36,6 +36,10 @@ input::-webkit-calendar-picker-indicator {
 
 @media (prefers-color-scheme: light) {
   body {
+    color: #000000;
+  }
+
+  input {
     color: #000000;
   }
 
