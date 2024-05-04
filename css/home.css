@@ -7,14 +7,6 @@ body {
   width: 100%;
 }
 
-header {
-  align-items: center;
-  display: flex;
-  height: 80px;
-  justify-content: right;
-  padding: 0px 20px;
-}
-
 main {
   align-items: center;
   display: flex;
@@ -35,7 +27,7 @@ main {
   background-size: 200% auto;
   display: inline-block;
   font-family: 'Audiowide', sans-serif;
-  font-size: 10vw;
+  font-size: 12vw;
   user-select: none;
 }
 
@@ -48,10 +40,10 @@ main {
   user-select: none;
 }
 
-#login {
-  border-radius: 20px;
-  float: right;
-  padding: 10px 20px;
+input {
+  text-align: center;
+  background-color: transparent;
+  border: none;
 }
 
 @keyframes gradient {
